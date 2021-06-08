@@ -1,0 +1,28 @@
+body{
+	background:black;
+}
+#topBar{
+width:600px;
+height:25px;
+background:white;
+border-left:1px solid red;
+border-top:1px solid red;
+border-right:1px solid red;
+color:red;
+padding-bottom:2px;
+font-size:25px;
+}
+#playAgain{
+display:none;
+height:40px;
+width:200px;
+position:absolute;
+top:320px;
+left:calc(50% - 100px);
+background:red;
+color:white;
+font-size:35px;
+}
+#playAgain:hover{
+cursor:default;	
+}
